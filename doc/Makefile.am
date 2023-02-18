@@ -10,3 +10,9 @@ dist_doc_bashcompletion_DATA = bash_completion/README.txt
 
 doc_bashcompletionscriptdir = @bashcompletiondir@
 dist_doc_bashcompletionscript_DATA = bash_completion/aria2c
+
+doc_zshcompletiondir = $(docdir)/zsh_completion
+dist_doc_zshcompletion_DATA = zsh_completion/README.txt
+
+doc_zshcompletionscriptdir = @zshcompletiondir@
+dist_doc_zshcompletionscript_DATA = zsh_completion/aria2c
